@@ -20,9 +20,11 @@ class CarManager(Turtle):
             new_car.shapesize(1, 2)
             new_car.setheading(180)
             new_car.color(random.choice(COLORS))
+            # positioning the car along the left vertical wall, at any random height
             new_y = random.randint(-250, 250)
             new_car.penup()
             new_car.goto(x=300, y=new_y)
+            # saving all generated cars in a list
             self.all_cars.append(new_car)
 
     def car_move(self):

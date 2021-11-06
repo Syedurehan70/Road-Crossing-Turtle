@@ -22,6 +22,7 @@ screen.onkeypress(fun=player.move, key="Up")
 game_is_on = True
 while game_is_on:
     time.sleep(0.1)
+    # screen updates every 0.1 sec in every loop
     screen.update()
 
     # creates the car.

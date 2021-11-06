@@ -1,6 +1,6 @@
 from turtle import Turtle
 STARTING_POSITION = (0, -280)
-MOVE_DISTANCE = 10
+MOVE_DISTANCE = 5
 FINISH_LINE_Y = 280
 FONT = ("Courier", 24, "normal")
 
